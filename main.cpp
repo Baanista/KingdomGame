@@ -1,5 +1,9 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-  std::cout << "Hello World!\n";
+   char name[50];
+   cout << "Please enter your name: ";
+   cin >> name;
+   cout << "Your name is: " << name << endl;
 }
