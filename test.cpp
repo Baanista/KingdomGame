@@ -1,0 +1,6 @@
+
+
+int hello()
+{
+	return('hello')
+}
