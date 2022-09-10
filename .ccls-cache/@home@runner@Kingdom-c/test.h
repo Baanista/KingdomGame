@@ -3,6 +3,6 @@
 
 
 
-char hello();
+int hello();
 
 #endif

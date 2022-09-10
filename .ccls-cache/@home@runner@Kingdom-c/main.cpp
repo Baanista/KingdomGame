@@ -1,8 +1,12 @@
 #include <iostream>
+using namespace std;
+
 #include "test.h"
 
 int main() {
-	char temp;
-	temp = hello()
-  std::cout << 'what';
+   char name[5];
+	
+   cout << "Please enter your name: ";
+   cin >> name;
+   cout << "Your name is: " << name << endl;
 }
