@@ -1,11 +1,8 @@
 #include <iostream>
-//#include <test.cpp>
-using namespace std;
+#include "test.h"
 
 int main() {
-   char name[50];
-   cout << "Please enter your name: ";
-   cin >> name;
-   cout << "Your name is: " << name << endl;
-	 //cout << test.hello << endl;
+	char temp;
+	temp = hello();
+  std::cout << 'what' << temp;
 }
