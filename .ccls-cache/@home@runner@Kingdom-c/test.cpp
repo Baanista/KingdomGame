@@ -1,6 +1,6 @@
 #include "test.h"
 
-int hello()
+int hello(int x)
 {
-	return(10);
+	return x;
 }
