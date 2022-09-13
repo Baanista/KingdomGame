@@ -1,8 +1,6 @@
 #include <iostream>
-using namespace std;
-
-#include "test.h"
+#include "imports.h"
 
 int main() {
-	
+  
 }

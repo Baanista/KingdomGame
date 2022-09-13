@@ -1,8 +1,13 @@
-#include "test.h"
+#include "imports.h"
 
 class kingdom
 {
 	public:
 		int size;
-		int m
+		int money;
+
+		kingdom(int p1, int p2){
+			size = p1;
+			money =  p2;
+		}
 }
