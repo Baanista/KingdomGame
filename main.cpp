@@ -1,10 +1,14 @@
 #include <iostream>
 using namespace std;
-#include "imports.h"
+#include "kingdom.hpp"
+#include <iostream>
+#include 
 
 int main() 
 {
-    a kingdom(10, 10);
+    kingdom a;
+    a.money = 100;
+    a.size =10;
 
-    cout << a;
+
 }
