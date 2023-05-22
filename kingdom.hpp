@@ -9,6 +9,12 @@ using namespace std;
 #include <cstdio>
 #include <random>
 
+struct tile
+{
+	int kingdom;
+	int terrain;
+};
+
 
 class kingdom
 {
@@ -16,7 +22,10 @@ class kingdom
 		int size;
 		int money;
 
-
+		void update()
+		{
+			money += size;
+		}
 };
 
 #endif

@@ -2,13 +2,27 @@
 using namespace std;
 #include "kingdom.hpp"
 #include <iostream>
-#include 
+#include <vector>
+
+vector<kingdom> kingdoms;
+vector<vector<tile> > Kingdom_Map;
+kingdom temp;
+
 
 int main() 
 {
-    kingdom a;
-    a.money = 100;
-    a.size =10;
+    temp.money = 100;
+    temp.size = 100;
 
+    kingdoms.push_back(temp);
 
+    while (true)
+    {
+        for (int i = 0; i < kingdoms.size(); i++)
+        {
+            kingdoms[i].update();
+
+            cout << kingdoms[i].money << endl;
+        }
+    }
 }
